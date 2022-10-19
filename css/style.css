@@ -90,3 +90,46 @@
     color: #fc8019;
     font-weight: 700;
 }
+
+.nav .right {
+    position: relative;
+}
+
+.right .items {
+    display: flex;
+    align-items: center;
+}
+
+.right .items li {
+    list-style-type: none;
+    margin-right: 36px;
+    color: #3b4152;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.items .nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+}
+
+.items .nav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3b4152;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.items .nav-item a:hover {
+    color: #fc8019;
+}
+
+.items .nav-item a span {
+    padding-left: 11px;
+}
